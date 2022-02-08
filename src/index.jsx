@@ -1,7 +1,14 @@
 // index.jsx
 import React from "react";
 import ReactDOM from "react-dom";
+import { Component, Component2, Home } from "./Home";
 function App() {
-  return <h1>Your super duper React Playground is ready!</h1>;
+  return (
+    <>
+      <Home />
+      <Component2 />
+      <Component />
+    </>
+  );
 }
 ReactDOM.render(<App />, document.getElementById("root"));
